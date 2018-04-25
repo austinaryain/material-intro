@@ -90,6 +90,9 @@ android {
     }
 }
 dependencies {
+    // Android Gradle Plugin < 3.0
+    compile 'com.heinrichreimersoftware:material-intro:1.6.2'
+    // Android Gradle Plugin 3.0+
     implementation 'com.heinrichreimersoftware:material-intro:1.6.2'
 }
 ```
